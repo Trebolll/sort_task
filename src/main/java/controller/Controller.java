@@ -45,7 +45,7 @@ public class Controller {
     }
 
     private void printComplete() {
-        String header = "(˵͡°͜ʖ͡°˵) --Исполнено-- (˵͡°͜ʖ͡°˵)";
+        String header = "--Исполнено--";
         System.out.println(header);
     }
 }
