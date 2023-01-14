@@ -4,7 +4,7 @@ package service.sorting;
 
 import io.reader.Reader;
 import io.writer.Writer;
-import service.comparator.Comparator;
+import service.comparator.interfaces.Comparator;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,7 +1,7 @@
 package controller;
 import io.reader.Reader;
 import io.writer.Writer;
-import service.comparator.Comparator;
+import service.comparator.interfaces.Comparator;
 import service.comparator.integer.IntegerComparatorAsc;
 import service.comparator.integer.IntegerComparatorDesc;
 import service.comparator.string.StringComparatorAsc;
@@ -45,7 +45,7 @@ public class Controller {
     }
 
     private void printComplete() {
-        String header = "=== Completed ===";
+        String header = "(˵͡°͜ʖ͡°˵) --Исполнено-- (˵͡°͜ʖ͡°˵)";
         System.out.println(header);
     }
 }

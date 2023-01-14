@@ -1,4 +1,4 @@
-package service.comparator;
+package service.comparator.interfaces;
 
 import io.reader.Reader;
 

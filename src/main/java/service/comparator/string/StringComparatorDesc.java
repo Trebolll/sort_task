@@ -2,6 +2,7 @@ package service.comparator.string;
 
 
 import io.reader.Reader;
+import service.comparator.interfaces.StringComparator;
 
 import java.util.Collections;
 import java.util.Map;

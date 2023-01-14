@@ -1,8 +1,8 @@
-package service.comparator.string;
+package service.comparator.interfaces;
 
 
 import io.reader.Reader;
-import service.comparator.Comparator;
+import service.comparator.interfaces.Comparator;
 
 public interface StringComparator extends Comparator {
     default String getValue(Reader flow) {

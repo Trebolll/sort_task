@@ -16,7 +16,7 @@ public class ReadFile implements  Reader{
                 currentItemOfFlow = scanner.next();
             } else {
                 flowOverFlag = true;
-                System.out.println(file.getName() + " " + "(Не удается получить элементы, файл пуст)");
+                System.out.println(file.getName() + " " + "Не удается получить элементы, файл пуст");
             }
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
