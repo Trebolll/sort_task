@@ -35,33 +35,21 @@ public class SortManager {
         StringDataReader dataReader = new StringDataReader(inputFiles);
 
         List<String> list = dataReader.getList();
-        Collections.sort(list, (o1, o2) -> {
-            if (sortDirection.equals(SortDirection.ASC)){
-                return o1.compareTo(o2);
-            }else{
-                return o2.compareTo(o1);
-            }
-        });
 
-        writeToFile(list);
+        MergeSort<String> mergeSort = new MergeSort<>(list);
+
+        writeToFile(mergeSort.sortedList());
+
     }
-
-
 
     private void sortIntegers() throws IOException {
         IntegerDataReader dataReader = new IntegerDataReader(inputFiles);
 
-    //  dataReader.readFiles(inputFiles);
-
         List<Integer> list = dataReader.getList();
-        Collections.sort(list, (o1, o2) -> {
-            if (sortDirection.equals(SortDirection.ASC)){
-                return o1.compareTo(o2);
-            }else{
-                return o2.compareTo(o1);
-            }
-        });
-        writeToFile(list);
+
+        MergeSort<Integer> mergeSort = new MergeSort<>(list);
+
+        writeToFile(mergeSort.sortedList());
     }
     private void writeToFile(List list) throws IOException {
         FileWriter writer = new FileWriter(outputFile);
