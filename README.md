@@ -24,5 +24,4 @@
 * `89538614597 - Марк`
 
 ## Пример
-![2fb5a528f1937c8225a7d8asasd408b61daa70158490a_727](https://user-images.githubusercontent.com/83946585/215465152-1e51011c-6700-4bfa-9914-9ace1934cfda.jpg)
-
+![2fb5a528f1937c8225a7d8asasd408b61daa70158490a_727](https://user-images.githubusercontent.com/83946585/215465854-d15a5649-29f9-453d-a35d-eacee3613aad.jpg)
