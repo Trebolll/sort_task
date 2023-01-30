@@ -7,21 +7,22 @@
 3. имя выходного файла, обязательное;
 4. остальные параметры – имена входных файлов, не менее одного.
 
-Примеры запуска из командной строки для Windows (для приложенного файла):
+## Примеры запуска из командной строки для Windows (для приложенного файла):
 
 * `java -jar sort_task.jar -i -a out.txt in.txt` (для целых чисел по возрастанию)
 * `java -jar sort_task.jar -s out.txt in1.txt in2.txt in3.txt` (для строк по возрастанию)
 * `java -jar sort_task.jar -d -s out.txt in1.txt in2.txt` (для строк по убыванию)
 
-Стек Технологий
+## Стек Технологий
 
 * `Java SE 16`
 * `Maven 4.0.0`
 
-Контактные данные разработчика
+## Контактные данные разработчика
 
 * `trebolll@yandex.ru`
 * `89538614597 - Марк`
 
-https://github.com/Trebolll/sort_task/issues/1#issue-1562261374
+## Пример
+![2fb5a528f1937c8225a7d8asasd408b61daa70158490a_727](https://user-images.githubusercontent.com/83946585/215465152-1e51011c-6700-4bfa-9914-9ace1934cfda.jpg)
 
